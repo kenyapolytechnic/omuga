@@ -79,6 +79,10 @@ A *chemical* compound is any substance composed of identical molecules consistin
 
 ### Practice
 #### 1. Identification of Terminals of A P-N Junction Diode
+![asd](images/diode.jpeg)
+![asd](images/diode1.png)
+![asd](images/diode2.jpeg)
+![asd](images/diode4.jpeg)
 
 #### 2. Connection of a Diode in a Circuit
 #### 3. Characteristics of a P-N Junction Diode
