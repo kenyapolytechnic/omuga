@@ -16,3 +16,4 @@
 ## Notes
 
 - [PLC](Notes/PLC.html)
+- [Electronics](Notes/Electronics.html)
