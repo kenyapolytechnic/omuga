@@ -86,6 +86,9 @@ It is easy to determine the polarity of many wired diodes. The "bar" on the circ
 ![asd](images/diode4.jpeg)
 
 #### Determining Polarity Using Digital Multimeter
+[Notes](https://www.electronicshub.org/test-a-diode/)
+
+
 - [Identifying Terminals Using Digital Multimeter](https://www.youtube.com/watch?v=gzh8ICLMXzQ&ab_channel=NesoAcademy)
 - [Test if a diode is working](https://www.youtube.com/watch?v=Rj9WpoaX2Gk&ab_channel=CircuitDigest)
 
@@ -101,4 +104,8 @@ When a PN junction diode is forward biased, the anode is positive with respect t
 ![asd](images/diode-half-wave-rectifier-02.svg)
 
 #### 3. Characteristics of a P-N Junction Diode
+
+
+
+[Chapter Notes](https://www.electronics-notes.com/articles/electronic_components/diode/pn-junction-diode.php)
 
