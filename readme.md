@@ -17,3 +17,6 @@
 
 - [PLC](Notes/PLC.html)
 - [Electronics](Notes/Electronics.html)
+
+
+## [Projects](projects)
