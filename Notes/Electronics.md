@@ -79,12 +79,26 @@ A *chemical* compound is any substance composed of identical molecules consistin
 
 ### Practice
 #### 1. Identification of Terminals of A P-N Junction Diode
+It is easy to determine the polarity of many wired diodes. The "bar" on the circuit symbol corresponds to the cathode of the diode and this is often marked by a white line around the circumference of the actual diode.
 ![asd](images/diode.jpeg)
 ![asd](images/diode1.png)
 ![asd](images/diode2.jpeg)
 ![asd](images/diode4.jpeg)
 
-#### 2. Connection of a Diode in a Circuit
-#### 3. Characteristics of a P-N Junction Diode
+#### Determining Polarity Using Digital Multimeter
+- [Identifying Terminals Using Digital Multimeter](https://www.youtube.com/watch?v=gzh8ICLMXzQ&ab_channel=NesoAcademy)
+- [Test if a diode is working](https://www.youtube.com/watch?v=Rj9WpoaX2Gk&ab_channel=CircuitDigest)
 
+***Notes:***
+When a diode is forward biased, it should have a voltage drop of 0.5 - 0.7 Volts, otherwise the diode is damaged.
+
+#### 2. Connection of a Diode in a Circuit
+For a current to flow across the PN diode junction it must be forward biased. Under these conditions conventional current flows from the anode to the cathode, but not the other way around.
+
+When a PN junction diode is forward biased, the anode is positive with respect to the cathode, and conversely, when reverse biased the cathode is positive with respect to the anode.
+
+
+![asd](images/diode-half-wave-rectifier-02.svg)
+
+#### 3. Characteristics of a P-N Junction Diode
 
