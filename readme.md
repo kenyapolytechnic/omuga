@@ -1,7 +1,7 @@
 # Omuga  Notes
 
 ## Timetable
-- [Timetable](Brian%20Syllabus/Timetable-BrianOnango.pdf)
+- [Timetable](Timetable/Timetable-BrianOnango.pdf)
 
 
 ## Syllabus
@@ -10,7 +10,7 @@
 - [Analogue 2](Brian%20Syllabus/AnalogueElectronicsII.pdf)
 - [Electronics](Brian%20Syllabus/Electronics.pdf)
 - [PLC](Brian%20Syllabus/IndustrialPLC.pdf)
-- [Digital Electronics](Timetable/digitalElectronics.pdf)
+- [Digital Electronics](Brian%20Syllabus/digitalElectronics.pdf)
 - Basic Electronics
 
 ## Notes
@@ -19,4 +19,4 @@
 - [Electronics](Notes/Electronics.html)
 
 
-## [Projects](projects)
+## [Projects](Projects)
