@@ -17,6 +17,7 @@
 
 - [PLC](Notes/PLC.html)
 - [Electronics](Notes/Electronics.html)
+- [Analogue Electronics II](Notes/AnalogueII.html)
 
 
 ## [Projects](Projects)
