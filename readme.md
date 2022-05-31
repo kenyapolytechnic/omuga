@@ -1,7 +1,7 @@
 # Omuga  Notes
 
 ## Timetable
-- [Timetable](Timetable/Timetable-BrianOnango.pdf)
+- [Timetable](Timetable/Timetable.png)
 
 
 ## Syllabus
