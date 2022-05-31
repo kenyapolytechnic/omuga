@@ -37,7 +37,7 @@ The capacitance is maximum when the reverse voltage is zero, and reduces in a no
 ### Unijunction Transistor (UJT)
  A 3 terminal semiconductor switching device. Has only one PN junction like an ordinary diode, but has three terminals. 
 
- #### Basic Construction
+#### Basic Construction
 
  Consists of an N-type silicon semiconductor bar and a P-type silicon region. N-type bar is called base while the P-type region is the emitter.
 
@@ -66,11 +66,31 @@ With no voltage applied to the UJT, the value of inter-base resistance is given 
 
 The intrinsic stand-off ration (ƞ) of UJT is given by
 
-$$ η=V1/VBB = RB1/(RB1+RB2)
+**η=V<sub>1</sub>/V<sub>BB</sub> = R<sub>B1</sub>/(R<sub>B1</sub>+R<sub>B2</sub>)**
+
+
+The voltage across RB1 is:
+
+**V<sub>1</sub> = R<sub>B1</sub>/(R<sub>B1</sub>+R<sub>B2</sub>) V<sub>BB</sub> = ηV<sub>BB</sub>**
+
+The value of ~ƞ~ generally lies between 0.51 and 0.82.
+
+The Peak Point Voltage (VP) of the UJT is:
+
+**V<sub>p</sub>=ηV<sub>BB</sub>+V<sub>D</sub>**
+
+
 
 #### Operation of UJT
 #### VI Characteristics of UJT
 #### Applications of UJT
+
+
+#### Excercise
+
+1. Determine the peak-point voltage (V<sub>p</sub>) value for the 2N 4870 UJT shown. Take V<sub>D</sub> = 0.7 V.
+
+![](images/Fig%2017.25.png)
 
 1. Trigger device for Triacs and SCRs
 2. Timing circuits
