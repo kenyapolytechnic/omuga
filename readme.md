@@ -11,12 +11,13 @@
 - [Electronics](Brian%20Syllabus/Electronics.pdf)
 - [PLC](Brian%20Syllabus/IndustrialPLC.pdf)
 - [Digital Electronics](Brian%20Syllabus/digitalElectronics.pdf)
-- Basic Electronics
+- [Basic Electronics](Brian%20Syllabus/BasicElectronics.pdf)
 
 ## Notes
 
 - [PLC](Notes/PLC.html)
 - [Electronics](Notes/Electronics.html)
+- [Basic Electronics](Notes/BasicElectronics.html)
 - [Analogue Electronics II](Notes/AnalogueII.html)
 
 
