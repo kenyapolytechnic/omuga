@@ -63,6 +63,11 @@ With no voltage applied to the UJT, the value of inter-base resistance is given 
 
 **R<sub>BB</sub> = R<sub>B1</sub> + R<sub>B2</sub>**
 
+
+The intrinsic stand-off ration (ƞ) of UJT is given by
+
+$$ η=V1/VBB = RB1/(RB1+RB2)
+
 #### Operation of UJT
 #### VI Characteristics of UJT
 #### Applications of UJT
