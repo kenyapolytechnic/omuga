@@ -50,6 +50,19 @@ Symbol of UJT is different from JFET in that the arrow is at some angle in the s
 ![](images/UJT.png)
 
 #### Equivalent Circuit of UJT
+
+![](images/eq_ckt_ujt.jpg)
+
+- The resistance of silicon bar is called as the inter-base resistance (has a value from 4 kΩ to 10 kΩ).
+- The resistance RB1 is the resistance of the bar between emitter and B1 region. The value of this is variable and depends upon the bias voltage across the pn-junction.
+- The resistance RB2 is the resistance of the bar between emitter and B2 region.
+- The emitter pn-junction is represented by a diode.
+
+With no voltage applied to the UJT, the value of inter-base resistance is given by:
+
+
+**R<sub>BB</sub> = R<sub>B1</sub> + R<sub>B2</sub>**
+
 #### Operation of UJT
 #### VI Characteristics of UJT
 #### Applications of UJT
