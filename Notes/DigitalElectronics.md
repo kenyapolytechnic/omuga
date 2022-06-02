@@ -35,7 +35,10 @@ There are 4 commonly used number systems:
 
 
 ### Place Value
-Place value is the value of each digit in a number. It depends on the base
+In positional number systems the value of a digit depends on its position. The digital that carries the most weight is the Most Significat Digit (MSD) and that which carries the least weight is the Least Significat Digit (LSD).
+
+
+Place value is weight of each digit in a number. It depends on the base
 
 | #\Position | 1 | 2     |  n |
 |---|---------|--------------|--------------|
@@ -68,15 +71,20 @@ Therefore:
 
 
 ### 1.1 Decimal
-Number system in base 10.
+Base 10. Composed of 10 numerals or symbols.
+
+#### Decimal to Binary Conversion
+There are two ways of going about this:
+1. Sum of weights
+2. Repeated Division by 2
+
+
 
 ### 1.2 Binary
 Number system in base 2.
 
-
-
 ### 1.3 Binary to Other Number Systems
-
+#### 1. Binary to Decimal
 
 ### 1.4 One's and Two's Complement
 
