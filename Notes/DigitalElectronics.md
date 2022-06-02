@@ -7,6 +7,20 @@ The term *digital* represents a the method of representing numerical values, by 
 |Continuous signals| Discrete Signals |
 
 
+
+The binary number system makes use of two digits 1 and 0. These two digits are called bits .The term bit is a contraction of binary digit. In digital circuits, two different voltage levels are used to represent the two bits. A 1 is represented by the higher voltage, which is referred to as a HIGH. On the other hand, a 0 is represented by the lower voltage and is referred to as a LOW. This is called positive logic. Thus,
+    ***HIGH = 1 and LOW = 0***
+
+### Logic Levels
+The voltage used to represent bits (1 and a 0) are called logic levels. Ideally speaking, one voltage level represents a HIGH and the other voltage level represents a LOW. In a practical digital circuit, however, a HIGH can be any voltage
+between a specified minimum value and a specified maximum value. Likewise, a LOW can be any voltage between a specified minimum and a specified maximum.
+
+|  |
+|:---------:|
+|![](images/LogicLevels.png)|
+|Logic Levels|
+
+
 ## 1. Number Systems
 A number system is defined as a system of writing to express numbers. Different Number systems are needed because computers use different number systems at different stages of processing data: (1) Entry is done by the user in Decimal, (2) Storage and transmission is done in binary (3) Output can be in Decimal or Hexadecimal, etc
 
@@ -36,7 +50,7 @@ Therefore:
 
 Where:
 
-***i is the index of the position of the digit from the left of a whole number***
+***i is the index of the position of the digit from the right of a whole number, counting from zero***
 
 For Fractions, we have:
 | #\Position | 1 | 2     |  n |
@@ -46,23 +60,48 @@ For Fractions, we have:
 | Decimal | 10<sup>-1</sup> | 10<sup>-2</sup> |10<sup>-n</sup> |
 | Hex | 16<sup>-1</sup> | 16<sup>-2</sup> |16<sup>-n</sup> |
 
+Therefore:
+
+**Place Value = Base<sup>-i</sup>**
+***i is the index of the position of the digit from the left of the fraction, counting from one***
 
 
 ### 1.1 Decimal
 Number system in base 10.
 
 ### 1.2 Binary
+Number system in base 2.
+
+
+
 ### 1.3 Binary to Other Number Systems
+
+
 ### 1.4 One's and Two's Complement
+
+
 ### 1.5 Binary Arithmetic
+
+
 ### 1.6 Octal
+
+
 ### 1.7 Octal to Other Number Systems
+
+
 ### 1.8 Hexadecimal
+
 ### 1.9 Hexadecimal to other number systems
+
+
 ### 1.10 Areas of application of Number Systems
 
 
+
+
 ## 2. Binary Codes
+
+
 ### 2.1 Importance of Binary Codes
 ### 2.2 Decimal Numbers in Binary Coded Decimal
 ### 2.3 BCD Arithmetic
