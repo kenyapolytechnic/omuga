@@ -18,6 +18,8 @@
 - [PLC](Notes/PLC.html)
 - [Electronics](Notes/Electronics.html)
 - [Basic Electronics](Notes/BasicElectronics.html)
+- [Digital Electronics](Notes/DigitalElectronics.html)
+- [Analogue Electronics I](Notes/AnalogueI.html)
 - [Analogue Electronics II](Notes/AnalogueII.html)
 
 
