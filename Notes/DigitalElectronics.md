@@ -25,6 +25,7 @@ between a specified minimum value and a specified maximum value. Likewise, a LOW
 A number system is defined as a system of writing to express numbers. Different Number systems are needed because computers use different number systems at different stages of processing data: (1) Entry is done by the user in Decimal, (2) Storage and transmission is done in binary (3) Output can be in Decimal or Hexadecimal, etc
 
 There are 4 commonly used number systems:
+
 | # | Number System | Base     | 
 |---|---------|--------------|
 | 1 | Binary | Base 2 |
@@ -36,7 +37,6 @@ There are 4 commonly used number systems:
 ### Place Value
 Place value is the value of each digit in a number. It depends on the base
 
-It is the position of the number *
 | #\Position | 1 | 2     |  n |
 |---|---------|--------------|--------------|
 | Binary | Ones = 2<sup>0</sup> | Twos = 2<sup>1</sup> | ns = 2<sup>n</sup> |
@@ -53,6 +53,7 @@ Where:
 ***i is the index of the position of the digit from the right of a whole number, counting from zero***
 
 For Fractions, we have:
+
 | #\Position | 1 | 2     |  n |
 |---|---------|--------------|--------------|
 | Binary |  2<sup>-1</sup> | 2<sup>-2</sup> | 2<sup>-n</sup> |
