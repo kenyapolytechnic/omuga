@@ -197,6 +197,7 @@ Example
 |Step 2|2<sup>7</sup>| 2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
 |Step 3|~~2<sup>7</sup>~~| 2<sup>6</sup>|~~2<sup>5</sup>~~|2<sup>4</sup>|~~2<sup>3</sup>~~|2<sup>2</sup>|2<sup>1</sup>|~~2<sup>0</sup>~~|
 |Step 4|0| + 2<sup>6</sup>| + 0| + 2<sup>4</sup>| + 0| + 2<sup>2</sup>| + 2<sup>1</sup>| + 0|
+
 64 + 16 + 4 + 2 = 86<sub>10</sub>
 
 
@@ -205,11 +206,12 @@ Example
 Example
 
 | |  | | | | |
-|--| --|--|--|--|--|
+|--|--|--|--|--|--|
 |Step 1| 0.|1|0|1|0|
 |Step 2|| 2<sup>-1</sup>|2<sup>-2</sup>|2<sup>-3</sup>|2<sup>-4</sup>|
 |Step 3|| 2<sup>-1</sup>|~~2<sup>-2</sup>~~|2<sup>-3</sup>|~~2<sup>-4</sup>~~|
 |Step 4|| 2<sup>-1</sup>|+ 0|+ 2<sup>-3</sup>|+ 0|
+
 0.5 + 0.125 = 0.625<sub>10</sub>
 
 #### Exercise
