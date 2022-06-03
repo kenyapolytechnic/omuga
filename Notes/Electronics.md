@@ -2,7 +2,7 @@
 
 ## 1. Semi Conductor Theory
 
-All materials are composed of very small particles called atoms. They (the atoms) are the building bricks of matter. An atom consists of:
+Atomic theory is the scientific theory that matter is composed of particles called atoms. They (the atoms) are the building bricks of matter. An atom consists of:
 
 1. A central nucleus of positive charge, around which
 2. Small negative particles called electrons revolved in different paths/orbits.
@@ -45,32 +45,74 @@ A path followed by an electron as it moves around the nucleus of an atom
 ***An element is a pure substance consisting only of atoms that all have the same numbers of protons in their nuclei.*** Unlike chemical compounds, chemical elements cannot be broken down into simpler substances by any chemical reaction. The number of protons in the nucleus is the defining property of an element, and is referred to as its atomic number (represented by the symbol Z) – all atoms with the same atomic number are atoms of the same element
 
 #### 10. Compound
-A *chemical* compound is any substance composed of identical molecules consisting of atoms of two or more chemical elements.
+A *chemical* compound is any substance composed of identical molecules consisting of atoms of two or more chemical elements. That is, as we go down a list of elements in order of atomic weights, corresponding properties are observed at regular intervals. 
 
-#### 12. Periodicity
+#### 11. Periodic Table
+*The periodic law* states that when the elements are listed in order of increasing atomic weights, their properties vary periodically.
 
-#### 12. Periodic Table
+Each vertical column of the periodic table contains a group or family of related elements. 
+
+![](images/Simple_Periodic_Table_Chart-blocks.svg)
 
 
 ### Classification of Materials
-#### 1. Conductors
-#### 2. Semi-Conductors
-#### 3. Insulators
+#### 1. Insulators
+#### 2. Conductors
+#### 3. Semi-Conductors
 
-### Intrinsic Semi-Conductors
-#### 1. Silicon
-#### 2. Germanium
-#### 3. Covalent Bonds
-#### 4. Electron-hole pair generation/recombination
-#### 5. Intrinsic Conduction
+The semiconductor is divided into two types. One is Intrinsic Semiconductor and other is an Extrinsic semiconductor. The pure form of the semiconductor is known as the intrinsic semiconductor and the semiconductor in which intentionally impurities is added for making it conductive is known as the extrinsic semiconductor.
+
+
+
+
+#### 1. Intrinsic Semi-Conductors
+
+An extremely pure semiconductor is called Intrinsic Semiconductor. On the basis of the energy band phenomenon, an intrinsic semiconductor at absolute zero temperature is shown below:
+
+![](images/intrinsic-semiconductor-and-extrinsic-semiconductor-figure-1-compressor.jpg)
+
+Its valence band is completely filled and the conduction band is completely empty. When the temperature is raised and some heat energy is supplied to it, some of the valence electrons are lifted to conduction band leaving behind holes in the valence band as shown below:
+
+![](images/intrinsic-semiconductor-and-extrinsic-semiconductor-figure-2-compressor.jpg)
+
+intrinsic-semiconductor-and-extrinsic-semiconductor-figure-2The electrons reaching at the conduction band move randomly. The holes created in the crystal also free to move anywhere. This behaviour of the semiconductor shows that they have a negative temperature coefficient of resistance.
+
+This means that with the increase in temperature, the resistivity of the material decreases and the conductivity increases.
+
+
+#### 2. Silicon
+Z=14
+#### 3. Germanium
+Z=32
+
+#### 4. Covalent Bonds
+A covalent bond consists of the mutual sharing of one or more ***pairs*** of electrons between two atoms. These electrons are simultaneously attracted by the two atomic nuclei.
+
+#### 5. Electron-hole pair generation/recombination
 
 
 
 ### Extrinsic Semi-Conductors
+
+A semiconductor to which an impurity at a controlled rate is added to make it conductive is known as an extrinsic semiconductor.
+
+If a Pentavalent impurity, having five valence electrons is added to a pure semiconductor a large number of free electrons will exist.
+
+If a trivalent impurity having three valence electrons is added, a large number of holes will exist in the semiconductor.
+
+Depending upon the type of impurity added the extrinsic semiconductor may be classified as n type semiconductor and p type semiconductor.
+
 1. Doping
+The process by which an impurity is added to a semiconductor is known as Doping.
+The purpose of adding impurity in the semiconductor crystal is to increase the number of free electrons or holes to make it conductive.  
+
 2. N-type semiconductor
+
 3. P-type Semiconductor
+
 4. Extrinsic Conduction
+
+
 
 ### The P-N Junctions
 1. Formation of the Junction
@@ -109,3 +151,14 @@ When a PN junction diode is forward biased, the anode is positive with respect t
 
 [Chapter Notes](https://www.electronics-notes.com/articles/electronic_components/diode/pn-junction-diode.php)
 
+
+
+Notes
+1. https://energyeducation.ca/encyclopedia/Valence_band
+2. https://energyeducation.ca/encyclopedia/Conduction_band
+3. https://circuitglobe.com/electron-hole-pairs-generation-and-recombination.html
+4. https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Atomic_Theory/Atomic_Theory
+5. https://byjus.com/physics/intrinsic-semiconductors/
+6. https://circuitglobe.com/intrinsic-semiconductor-and-extrinsic-semiconductor.html
+7. https://www.mrsd.org/cms/lib/NH01912397/Centricity/Domain/245/atoms%20and%20periodic%20table%20notes.pdf
+8. https://www.unf.edu/~michael.lufaso/chem2045/Chapter2.pdf
