@@ -130,6 +130,8 @@ The functional difference between UJT and PUT is that PUT has an intrinsic stand
 The characteristic curve for the programmable unijunction transistor is similar to that of the unijunction transistor. It is a plot of anode current I<sub>A</sub> versus anode voltage V<sub>A</sub>.
 
 ### Diac
+![](images/Diac.png)
+
 A two terminal device which can pass current in either direction when then breakover voltage is reached in either polarity across the two terminals. Basic construction is simlar to that of a triac but without the base terminal.
 
 A diac consists of 2 4-layer diodes connected in parallel but in opposite directions. From the figure these are P<sub>1</sub>N<sub>1</sub>P<sub>2</sub>N<sub>2</sub> and P<sub>2</sub>N<sub>1</sub>P<sub>1</sub>N<sub>3</sub>
