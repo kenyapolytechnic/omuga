@@ -309,6 +309,40 @@ The 2’s complement system for representing the signed numbers works as explain
 
 For example consider the decimal number +19. Its magnitude is represented as 10011. When we attach a sign bit of 0, the complete signed number becomes 0(*sign bit*)10011. However, if we consider – 19<sub>10</sub>, it must be represented in 2’s complement form: –19<sub>10</sub> = 1(*sign bit*) 01101<sub>2</sub>
 
+
+##### Conversion from Two's Complement
+
+Use the number 0xFFFFFFFF as an example. In binary, that is:
+
+1111 1111 1111 1111 1111 1111 1111 1111
+What can we say about this number? It's first (leftmost) bit is 1, which means that this represents a number that is negative. That's just the way that things are in two's complement: a leading 1 means the number is negative, a leading 0 means the number is 0 or positive.
+
+To see what this number is a negative of, we reverse the sign of this number. But how to do that? The class notes say (on 3.17) that to reverse the sign you simply invert the bits (0 goes to 1, and 1 to 0) and add one to the resulting number.
+
+The inversion of that binary number is, obviously:
+
+0000 0000 0000 0000 0000 0000 0000 0000
+
+Then we add one.
+
+0000 0000 0000 0000 0000 0000 0000 0001
+
+So the negative of 0xFFFFFFFF is 0x00000001, more commonly known as 1. So 0xFFFFFFFF is -1.
+
+
+Exercise
+
+Do the following calculations using 
+a) one's complement
+b) two's complement
+
+1. 12 -16
+2. 16 - 12
+3. 2 - 2
+4. 4 - 2
+5. 2 - 4
+
+
 ### 1.6 Binary Arithmetic
 
 The addition of two binary numbers is performed in exactly the same manner as the addition of decimal numbers.
@@ -323,36 +357,125 @@ When dealing with a large quantity of binary numbers of many bits, it is conveni
 
 ### 1.7 Octal to Other Number Systems
 
+1. Octal to decimal
+See [Number Conversions](#Number%20Conversions)
+2. Octal to Binary
+See [Number Conversions](#Number%20Conversions)
+
+
+3. Binary to Octal
+Convert each octal digit to its binary equivalent
+
+4. Binary to octal
+Group the binary number into 3s, then convert each to its decimal equivalent.
 
 ### 1.8 Hexadecimal
 
 ### 1.9 Hexadecimal to other number systems
+Conversion of Hexadecimal to binary number is a two-step process. First, we need to convert the given Hexadecimal number into its equivalent decimal number and then convert the decimal into binary.
+
+1. Hexadecimal to decimal
+See [Number Conversions](#Number%20Conversions)
+2. Hexadecimal to Binary
+See [Number Conversions](#Number%20Conversions)
 
 
-### 1.10 Areas of application of Number Systems
+3. Hexadecimal to Binary
+The procedure for converting hexadecimal number to its binary equivalent is as follows:
+
+Step 1. Write the hexadecimal number
+
+Step 2. Write the 4-bit binary equivalent for each hexadecimal digit
+
+Step 3. Check if there are any zeros on the left most position of the binary number obtained.
+Drop off the zeros and write the answer as a binary number.
+
+4. Binary to Hex
+The procedure for converting hexadecimal number to its binary equivalent is as follows:
+
+Step 1. Write the binary number.
+
+Step 2. Starting from the right most position, group the binary number into groups of four bits. If necessary, we can add zeros at the left-most position.
+
+Step 3. Convert each 4-bit binary group to its equivalent hexadecimal digit.
 
 
+### Number Conversions
+- [X] Any base to decimal (Sum of digit values)
+- [X] decimal to any base (Repeated myltiplication by base/ repeated division by base)
+
+
+***Excercise:***
+
+Find out the areas fo application of Number Systems
 
 
 ## 2. Binary Codes
 
+A code, in communications, is an unvarying rule for replacing a piece of information such as a letter, word, or phrase with an arbitrarily selected equivalent.
+
+A binary code represents text, computer processor instructions, or any other data using a two-symbol system. The two-symbol system used is often "0" and "1" from the binary number system.
 
 ### 2.1 Importance of Binary Codes
+Binary numbers simplify the design of computers and related technologies. Computers need many transistors to accomplish what they have to accomplish, but through binary numbers, it became easier and less expensive. It needs the least amount of necessary circuitry, which results in the least amount of space, energy consumption, and cost. It also provides safety for reliability.
+
+The use of binary numbers increased the expressive power of the binary circuits that cut down the cost of a computer and made a more powerful computer for the same amount of money. Also, the use of binary numbers maximises the expressive power of binary circuits.
+
+**Advantages of Binary Code:**
+1. Binary codes are suitable for the computer applications.
+2. Binary codes are suitable for the digital communications.
+3. Binary codes make the analysis and designing of digital circuits if we use the binary codes.
+4. Since only 0 & 1 are being used, implementation becomes easy.
+
 ### 2.2 Decimal Numbers in Binary Coded Decimal
+
+BCD takes advantage of the fact that any one decimal numeral can be represented by a four-bit pattern. The most obvious way of encoding digits is Natural BCD (NBCD), where each decimal digit is represented by its corresponding four-bit binary value. This is also called "8421" encoding.
+
+
+
 ### 2.3 BCD Arithmetic
+
 ### 2.4 Binary Numbers in Gray Code
+
 ### 2.5 Characters in Various Alphanumeric Codes
+
 ### 2.6 Use of Alphanumeric Codes in Digital Systems
+
 ### 2.7 Methods of Error Detection
 
 
-
-
 ## 3. Logic Gates and Boolean Algebra
+
+Logic gates are the basic building blocks for forming digital electronic circuitry. A logic gate has
+one output terminal and one or more input terminals. Its output would be HIGH (1) or Low (0)
+depending on the digital level (s) at the input terminal (s). The logic gates can be used to design
+digital systems that will evaluate digital input levels and produce a specific output response based
+on that particular logic circuit design.
+
+Types of Logic Gates:
+
+1. AND
+2. OR
+3. NOT (or INVERTER)
+4. NAND
+5. NOR
+6. XOR (Exclusive OR)
+7. Exclusive NOR
+
+#### Truth Tables
+
+
 ### 3.1 Basic Logic Gates
+1. NOT
+2. AND
+3. OR
+
 ### 3.2 Hybrid Gates
+
 ### 3.3 Boolean Algebra
+
 ### 3.4 Minimizing Logic Expressions
+
 ### 3.5 Implementing Logic Circuits
 
 ## 4. Combinational Logic Design
