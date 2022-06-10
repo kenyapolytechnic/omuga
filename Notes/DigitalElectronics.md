@@ -347,6 +347,27 @@ b) two's complement
 
 The addition of two binary numbers is performed in exactly the same manner as the addition of decimal numbers.
 
+#### Multiplication
+The process of multiplying binary numbers is similar and easier to do than decimal multiplication as binary numbers consist of only two digits which are 0 and 1. The method of multiplying binary numbers is given below. The same set of rules also apply to binary numbers with a decimal point. Let us take the example of multiplying 11101<sub>2</sub>  and 1001<sub>2</sub>. The decimal equivalent of 11101<sub>2</sub> is 29 and the decimal equivalent of 1001<sub>2</sub> is 9. Now let us multiply these numbers.
+
+**Step 1**: Write down the multiplicand 11101<sub>2</sub> and the multiplier 1001<sub>2</sub>  one below the other in proper positions.
+
+**Step 2**: Multiply the rightmost digit or the least significant bit (LSB) of the multiplier (1) with all the digits of the multiplicand 11101<sub>2</sub>.
+
+**Step 3**: Add a place holder of '0' or 'X' before multiplying the next higher order digit of the multiplier& with the multiplicand.
+
+**Step 4**: Repeat the same process for all the next higher-order digits until we reach the most significant bit (MSB) which is the left-most digit of the multiplicand with the multiplier.
+
+**Step 5**: The product obtained in each row is called the partial product. Finally, add all the partial products. To add all the binary numbers use the rules of binary addition.
+
+![](images/binary-multiplication-3-1623916940.png)
+
+#### Fraction
+![](images/binary-multiplication-steps.png)
+
+
+#### Division
+
 
 ### 1.6 Octal
 
@@ -486,3 +507,7 @@ Types of Logic Gates:
 ## 9. Arithmetic Circuits
 ## 10. Converters
 ## 11. Memories
+
+
+Resources:
+http://www.ee.surrey.ac.uk/Projects/CAL/digital-logic/gatesfunc/
