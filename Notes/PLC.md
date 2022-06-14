@@ -1,5 +1,53 @@
 # Industrial PLC
 
+## Introduction to PLCs
+PLC stands for programmable logic controller, and can loosely be defined as *a solid-state computer that monitors both inputs and outputs of automated processes in a manufacture chain, making logic-based decisions based on inputs received.*
+
+The PLC performs the logic functions of relays, timers, counters and sequencers. It has the following advantages:
+
+Programming the PLC is easier than wiring the relay control panel.
+
+1. The PLC can be reprogrammed. Conventional controls must be rewired and are often scrapped instead.
+2. PLCs take less floor space then relay control panels.
+3. Maintenance of the PLC is easier, and reliability is greater.
+4. The PLC can be connected to the plant computer systems more easily than relays can.
+
+### Parts of a PLC
+
+![](images/PLC.png)
+
+There are 5 major components, the 6th being the external programming device:
+1. CPU (Central processing unit) - which is the brain of the device
+2. Memory
+3. Input module
+4. Output Module
+5. Power Supply
+6. External Programming Device
+
+
+The components are housed in a suitable cabinet designed for the industrial environment.
+
+The input module and output module are the connections to the industrial process that need to be controlled. The inputs to the controller are signals from *limit switches, push-buttons, sensors, and
+other on-off devices.* In addition, larger PLCs are capable of accepting signals from analogue devices of the type modelled. The outputs from the controller are *on-off signals* to operate motors, valves, and other devices required to actuate the process.
+
+The processor is the central processing unit (CPU) of the programmable controller. It executes the various logic and sequencing functions described in previous Sections by operating on the PLC INPUTS TO DETERMINE THE APPROPRIATE OUTPUT SIGNALS. The processor is normally a 16 or 32-bit a microprocessor.
+
+Tied to the CPU is the PLC memory, which contains the program of logic, sequencing, and other input/output operations. The memory for a programmable logic controller is specified in the same way as for a computer, and may range from 1k to over 48k of storage capacity.
+
+A power supply is specially used to drive the PLC even though the components of the industrial process that are regulated may have a higher voltage and power rating than the controller itself.
+
+The PLC is programmed by means of a programming device. The programming device (sometimes referred to as a programmer) is usually detachable from the PLC cabinet so that it can be shared between different controllers.
+
+### Common Uses of a PLC
+1. Industrial automation
+2. Prepaid electricity meters
+3. Washing machines
+4. Elevators
+5. Traffic signals
+
+## Types of Industrial Software Systems
+
+
 
 
 ## Industrial Communication Network
@@ -118,6 +166,8 @@ The term full-duplex describes simultaneous data transmission and receptions ove
 
 
 ### Network Design
+let students refer to class notes.
+
 #### Topology
 #### Ring
 #### Star
@@ -171,9 +221,10 @@ In telecommunication, the process of sending data sequentially over a computer b
 
 
 #### Field bus
-
+Let students find out about this.
 
 #### HART
+Let students find out about this.
 
 
 ### Physical Industrial Networks
@@ -203,6 +254,7 @@ A router is a networking device that forwards data packets between computer netw
 
 
 #### Terminal Reflectors
+Let students find out about this.
 
 #### Signal Amplifiers
-
+Let students find out about this.

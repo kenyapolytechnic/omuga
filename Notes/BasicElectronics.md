@@ -136,8 +136,29 @@ retain its content.
 
 ## 7. Number Systems
 
+Refer to Digital Electronics notes
+
 ## 8. Binary Codes
 
+### Requirements:
+- Represent binary numbers in BCD
+- Perform BCD arithmetic
+
+Binary Coded Decimal, or BCD, is another process for converting decimal numbers into their binary equivalents.
+
+### 8421 BCD
+
+
+### Excess 3
+
+
+### Importance of Binary Codes
+
+
+### BCD Arithmetic
+
 ## 9. Logic Gates and Boolean Algebra
+
+Refer to Digital Electronics Notes
 
 ## 10. Emerging Trends in Electronics
