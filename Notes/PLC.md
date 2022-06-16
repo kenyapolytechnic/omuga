@@ -1,6 +1,10 @@
 # Industrial PLC
 
-## Introduction to PLCs
+Industrial automation began long before PLCs. In the early to mid 1900s, automation was usually done using complicated electromechanical relay circuits. However, the amount of relays, wires and space needed to create even simple automation was problematic. Thousands of relays could be necessary to automate a simple factory process! And if something in the logical circuit needed to be changed, it was a very difficult task.
+
+In 1968 the first programmable logic controller came along to replace complicated relay circuitry in industrial plants. The PLC was designed to be easily programmable by plant engineers and technicians that were already familiar with relay logic and control schematics. Since the beginning PLCs have been programmable using ladder logic which was designed to mimic control circuit schematics. The ladder diagrams look like control circuits where power is flowing from left to right through closed contacts to energize a relay coil.
+
+## 1. Introduction to PLCs
 PLC stands for programmable logic controller, and can loosely be defined as *a solid-state computer that monitors both inputs and outputs of automated processes in a manufacture chain, making logic-based decisions based on inputs received.*
 
 The PLC performs the logic functions of relays, timers, counters and sequencers. It has the following advantages:
@@ -11,6 +15,37 @@ Programming the PLC is easier than wiring the relay control panel.
 2. PLCs take less floor space then relay control panels.
 3. Maintenance of the PLC is easier, and reliability is greater.
 4. The PLC can be connected to the plant computer systems more easily than relays can.
+
+![](images/PLC2.jpg)
+
+
+### Process Control
+Process control is the manipulation of process variables (e.g., feed, speed, depth-of-cut) to regulate the processes. Machine
+tool operators perform on-line and off-line process control by adjusting feeds and speeds to suppress chatter, initiating an emergency stop in response to a tool breakage event, rewriting a part program to increase the depth-of-cut in order to minimize burr formation and many more. 
+
+But PLCs are required in process control in modern industries. Process control is used in continuous production – in manufacturing and in other fields and industries where some kind of material is produced without any kind of interruption – as well as in “batch processing.” It is used to automatically control the conditions in which a product is made – ensuring better quality and efficiency. ​Wastewater management, for example, involves the continuous and unceasing treatment of greywater and sewage, without any interruptions – so this is a field in which process control is used.
+
+Process control uses specialised, often custom-built industrial control systems. These systems control the flow, output, mixture, and other such aspects of a continuous production process, based on feedback from sensors, data monitoring systems and more. 
+
+Process control systems operate on a much more refined, powerful level than a system that is purely controlled by humans. For example, consider what would offer better results when pasteurising milk – a single individual taking a temperature reading manually, then shutting off the heat when the milk reaches the right temperature – or a sensor in a pasteurisation tank that automatically senses when the milk has been pasteurised properly, and then automatically empties the machine, and moves the product onto the next step.
+
+Essentially then, process control is all about eliminating human feedback – and allowing the advanced, automated systems of an industrial plant to handle minor adjustments automatically, without intervention beyond human monitoring of each system.
+
+### Manufacturing Process Monitoring
+*Process monitoring is the manipulation of sensor measurements (e.g., force, vision, temperature) in determining the state of the processes.* A machine tool operator performs routine monitoring tasks; for example, visually detects missing and broken tools as well as chatter from the characteristic sound it generates. Unmanned monitoring algorithms utilize filtered sensor measurements which, along with operator inputs, determine the process state. The states of complex processes are monitored by a sophisticated signal processing of sensor measurements.
+
+PLCs monitor and collect data from connected inputs and machinery. Because of this, *software programs, such as SCADA and Machine Monitoring systems, can connect to PLCs to process collected machine data and display useful information*, such as production reports, live-trends, alarm notifications, OEE metrics, cycle or batch status, and more.
+
+### Need for PLCs:
+
+1. *PLCs are easy to program.* They’re as easy for a technician to work with as a consumer. You can also extend a PLC system by programming it to follow a set of instructions if certain conditions are true.
+2. *PLCs Can Offer A Unified Programming Environment*. PLCs work well with PCs, PACs (programmable automation controllers), motion control devices, and HMIs.
+3. *PLCs Collect Robust Data*. The number of inputs you set on a PLC system is up to the user. This means that there is no limit to the number of data sources, nor the amount of data streaming in. Measuring devices, sensors, and motion controls can pick up on several parameters, so it’s up to the user to delineate how this data is collected and how the output displays.
+4. *PLCs Can Be Used For Predictive Maintenance*. Predictive maintenance starts with preventative maintenance. If particular equipment reaches a pre-programmed threshold, a sensor goes off that tells the technician that the equipment needs maintenance or replacement. Enough of these reports are then collected as data points themselves to communicate to the system about which factors predict wear and tear or an impending issue. PLCs would interact with a SCADA to display maintenance schedules or allow the flexible configuration of new maintenance rules.
+5. PLCs have high reliability
+6. Compared to relay contactor logic this technology is for better then previous outdated Technology here less wiring required means less maintenance.
+7. PLCs constantly monitor the state of the systems through input devices and generate the control actions according to the logic given in the user program.
+
 
 ### Parts of a PLC
 
@@ -23,7 +58,6 @@ There are 5 major components, the 6th being the external programming device:
 4. Output Module
 5. Power Supply
 6. External Programming Device
-
 
 The components are housed in a suitable cabinet designed for the industrial environment.
 
@@ -45,12 +79,48 @@ The PLC is programmed by means of a programming device. The programming device (
 4. Elevators
 5. Traffic signals
 
+### How PLCs work
+The PLC takes inputs, performs logic on the inputs in the CPU and then turns on or off outputs based on that logic. Think of it like this:
+
+1. The CPU monitors the status of the inputs (ex. switch on, proximity sensor off, valve 40% open, etc.)
+2. The CPU takes the information that it gets from the inputs, performs logic on the inputs
+3. The CPU operates the outputs logic (ex. turn off motor, open valve, etc.)
+
+## Types of Industrial Control Systems
+
+1. Programmable Logic Controllers (PLCs)
+2. Intelligent Electronic Devices (IEDs)
+3. Supervisory Control and Data Acquisition (SCADA)
+4. Programmable Automation Controllers (PACs)
+5. Human-Machine Interface (HMI)
+6. Industrial Automation and Control Systems (IACS)
+7. Remote Terminal Units (RTUs)
+8. Distributed Control Systems
+
 ## Types of Industrial Software Systems
 
+Industrial software is a collection of application programs, processes, methods and functions that can aid in collection, manipulation and management of information on an industrial scale. Sectors that make use of industrial software include operations, manufacturing, designing, construction, mining, textile mills, chemicals, food processing and service providers.
+
+### 1. Graphical User Interface (SCADA)
+SCADA systems include hardware and software components. The hardware gathers and feeds data into field controller systems, which forward the data to other systems that process and present it to a human-machine interface (HMI) in a timely manner. SCADA systems also record and log all events for reporting process status and issues. SCADA applications warn when conditions become hazardous by sounding alarms.
+
+*HMI software* provides a system that consolidates and presents data from SCADA field devices and enables operators to understand and, if needed, modify the status of SCADA-controlled processes.
+
+### 2. PLC Programming Software
+PLC programming software is the collective term referring to the data and instructions provided to a PLC (programmable logic controller) via various types of programming languages. These instructions are executed by the PLC to operate, monitor and control machinery and equipment.
+
+### 3. Configuration Software
+Calibration is the activity of checking, by comparison with a standard, the accuracy of a measuring instrument of any type.  It may also include adjustment of the instrument to bring it into alignment with the standard.
+
+In the process industries, a critical part of asset management strategy of a company is the calibration of the process instru-ments  and  other  devices.  Often  companies invest  millions of  dollars  on  instruments  and  they  find  that  uncalibrated instruments  provide misinformation that can cost the  com-panies extra millions of dollars. Also, instruments drift from calibrated  status  under  operational  conditions  resulting  in misleading readings too. Process plants such as pharmaceu-ticals, chemicals, nuclear, metal processing, paper, food and beverage, power, oil  and gas  industries  need to  make  sure that  their  instrumentation in  the plant such  as  temperature sensors, pressure transducers, flow meters, and  the like  are performing as expected and measuring within the specified tolerances.
+
+In process industry, calibration of devices ensures that the processes are well controlled and the products meet expected specifications.
+
+### 4. Calibration Management Software
+Calibration management software is a type of quality control software that keeps schedules of the calibration and preventative maintenance service of measurement equipment in manufacturing settings. Calibration software is an automated quality management system that oversees calibration scheduling, optimizes calibration frequency, performs measurement systems analysis, and generates reports and calibration certificates.
 
 
-
-## Industrial Communication Network
+## 2. Industrial Communication Network
 
 ### Networks
 Communication networks may be used in control systems to pass data between (1) field devices and PLCs, (2) between different PLCs, or (3) between PLCs and personal computers used for operator interface, data processing and storage, or management information.
